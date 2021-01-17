@@ -1,0 +1,11 @@
+@import '../../assets/scss/variables.scss';
+.Header{
+    //  border:solid $backgroundColor 1px;
+    background-color: $lightGreen;
+    &__title {
+        margin: 0;
+        padding: 1rem 0;
+         text-align: center;
+         color: white;
+    }
+}

@@ -1,0 +1,23 @@
+@import '../../assets/scss/variables.scss';
+.income,
+.expense {
+    width: 100%;
+      border:solid $backgroundColor 1px;
+    text-transform: capitalize;
+    text-align: center;
+    
+    h2 {
+        margin: 0;
+        padding: 10px 0;
+    }
+    .chartWrapper {
+        margin: 0;
+    }
+}
+
+.expense {
+    color: $secondaryColor;
+}
+.income {
+    color: $lightGreen;
+}

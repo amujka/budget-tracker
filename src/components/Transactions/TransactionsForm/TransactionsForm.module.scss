@@ -1,0 +1,73 @@
+@import '../../../assets/scss/variables.scss';
+.TransactionsForm {
+    color: $mainColor;
+    label {
+        padding: 10px;
+        display: block;
+    }
+    .dropDownWrapper {
+        display: flex;
+        justify-content: space-between;
+        select {
+            width: 100%;
+            padding: 10px;
+            outline: none;
+            border-color: $mainColor;
+            color: $mainColor;
+            background-color: $backgroundColor;
+        }
+        .typeDropDown {
+            flex: 1;
+            margin-right: 5px;
+        }
+        .categoryDropDown {
+            flex: 1;
+            margin-left: 5px;
+        }
+    }
+    .inputWrapper {
+        display: flex;
+        justify-content: space-between;
+        input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            outline: none;
+            border-color: $mainColor;
+            color: $mainColor;
+            background-color: $backgroundColor;
+        }
+        .dateInput {
+            flex: 1;
+            margin-left: 5px;
+            input {
+                padding: 8px;
+            }
+        }
+        .amountInput {
+            flex: 1;
+            margin-right: 5px;
+        }
+    }
+    .submit {
+        width: 100%;
+        max-width: 150px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        margin: 1rem auto;
+        display: block;
+        border-radius: 5px;
+        color: $backgroundColor;
+        transition: 1s;
+    }
+    .expense {
+        background-color: $secondaryColor;
+    }
+    .income {
+        background-color: $lightGreen;
+    }
+}
+.error {
+    border-color: red !important;
+}

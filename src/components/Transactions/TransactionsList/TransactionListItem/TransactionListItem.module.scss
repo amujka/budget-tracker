@@ -1,0 +1,52 @@
+@import '../../../../assets/scss/variables.scss';
+li {
+   // border: 1px red solid;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: $mainColor;
+
+    
+    .icon {
+        flex: 1;
+        color: white;
+        padding: 10px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-right: 1rem;
+    }
+    .expense {
+        background-color: rgb(255, 80, 80);
+    }
+    .income {
+        background-color: #9bd4a7;
+        ;
+    }
+    .transactionInfo {
+        flex: 2;
+        p {
+            padding: 0;
+            margin: 0;
+            text-transform: capitalize;
+        }
+        .innerWrap {
+            width: 100%;
+           display: flex;
+           justify-content: space-between;
+           
+            .delete {
+                color: coral;
+                background: none;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+    
+}

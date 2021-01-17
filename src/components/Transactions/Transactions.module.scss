@@ -1,0 +1,26 @@
+@import '../../assets/scss/variables.scss';
+.Transactions {
+      flex: 1;
+       //background-color: $backgroundColor;
+      // border:solid $backgroundColor 1px;
+      width: 100%;
+     
+      padding: 10px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      &__balance {
+            text-align: center;
+            color: $mainColor
+      }
+      &__transactionsFormWrapper {
+            //border: solid blue 1px;
+            flex: 1 1 0;
+      }
+      &__transactionsListWrapper {
+            //border: solid red 1px;
+            overflow-y: scroll;
+             flex: 2 1 0;
+      }
+      @media screen and(min-width:1024px) {}
+}
